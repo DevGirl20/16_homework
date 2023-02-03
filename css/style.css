@@ -1,0 +1,247 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+position: -webkit-sticky
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*                                                                                    */
+.container{
+width: 1440px;
+height: 754px;
+padding-left: 135px;
+padding-right: 135px;
+}
+.header_logo{
+width: 1440px;
+height: 80px;
+border-bottom: 1px solid #EFEEF3;
+
+}
+.header_logo_img{
+padding-left: 135px;
+margin-top: 22.5px;
+}
+.services {}
+.services_subtitle {
+margin-top:100px;
+}
+.subtitle {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+color: #7690A8;
+}
+
+.flex{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.flex_design,.flex_ecommers,.flex_application{
+width: 370px;
+height: 340px;
+background: #FFFFFF;
+border: 1px solid #E5EAF4;
+border-radius: 8px;
+margin-top: 40px;
+padding: 40px;
+}
+.flex_design,.flex_ecommers{
+margin-right: 30px;
+}
+.flex_ecommers{
+
+}
+.flex_application{
+
+}
+.flex_svg_design,.flex_svg_eccomers,.flex_svg_application{
+width: 64px;
+height: 64px;
+border: 1px solid rgba(21, 101, 216, 0.1);
+border-radius: 16px;
+/*padding: 14px;*/
+}
+.flex_svg_design_hover,.flex_svg_eccomers_hover,.flex_svg_application_hover{
+position: absolute;
+top: 356px;
+width: 64px;
+height: 64px;
+border: 1px solid rgba(61, 179, 112, 0.1);
+border-radius: 16px;
+opacity: 0;
+}
+.flex_svg_design:hover{
+opacity: 0;
+}
+.flex_svg_eccomers:hover{
+opacity: 0;
+}
+.flex_svg_application:hover{
+opacity: 0;
+}
+
+.flex_svg_design_hover:hover{
+opacity: 100%;
+}
+.flex_svg_eccomers_hover:hover{
+opacity: 100%;
+}
+.flex_svg_application_hover:hover{
+opacity: 100%;
+}
+
+
+.svg_ecommers,.svg_application,.svg_design{
+display: block;
+margin: 0 auto ;
+margin-top: 14px;
+}
+.svg_design_hover,.svg_eccomers_hover,.svg_application_hover{
+display: block;
+margin: 0 auto ;
+margin-top: 14px;
+}
+
+
+
+
+
+
+.flex_design_title,.flex_ecommers_title,.flex_application_title{
+padding-top: 30px;
+}
+.flex_design_subtitle,.flex_ecommers_subtitle,.flex_application_subtitle{
+padding-top: 15px;
+}
+.flex_design_button,.flex_ecommers_button,.flex_application_button{
+padding-top: 30px;
+}
+.services_title {
+margin-top: 15px;
+}
+.title {
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+letter-spacing: 0.2px;
+color: #16133D;
+}
+
+.services_title {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 21px;
+letter-spacing: 0.2px;
+color: #16133D;
+
+}
+.services_subtitle {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #16133D;
+}
+.services_button {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+color: #3DB370;
+background-color: white;
+}
+
+.footer{
+position: absolute;
+top: 741px;
+width: 1440px;
+height: 193px;
+background: #16133D;
+}
+.footer_logo_img{
+padding-top: 40px;
+padding-left: 136px;
+}
+.footer_flex {
+display: flex;
+flex-direction: row;
+}
+.footer_instagram{
+margin-left: 135px;
+}
+.footer_instagram,.footer_facebook,.footer_github,.footer_dribble,.footer_twitter {
+margin-top: 40px;
+margin-right: 10px;
+width: 38px;
+height: 38px;
+background: #EFEEF3;
+border-radius: 5px;
+}
+.instagram{
+width: 20px;
+height: 20px;
+}
+
+.footer_svg_sprite{
+width: 100px;
+height: 100px;
+}
+.footer_svg{
+display: block;
+/*margin: 0 auto ;*/
+margin-top: 9px;
+margin-left: 9px;
+}
+.footer_svg:hover svg path {
+fill: green;
+}
+.footer_svg_facebook{
+margin-left:13px;
+}
+.footer_svg_twitter{
+margin-top: 11px;
+}
+
+
+
+
